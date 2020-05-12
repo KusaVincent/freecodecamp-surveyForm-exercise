@@ -1,0 +1,118 @@
+* body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 100%;
+  background-color: #cccccc;
+  background-position: center;
+  background-image: url("photo-1522865080725-2a9ea1fcb94e.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+#survey-form {
+  display: grid;
+  width: 500px;
+  margin: auto;
+  padding: 50px;
+  /* border: solid; */
+  border-radius: 7px;
+  background-color: rgb(2, 5, 51);
+  color: azure;
+}
+
+#title {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  font-size: 35px;
+  margin-top: 50px;
+}
+#description {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  font-size: 25px;
+  font-family: monospace;
+}
+#name {
+  border-radius: 5px;
+  margin: auto;
+  min-width: 90%;
+  padding: 10px;
+}
+#name-label {
+  margin-left: 11px;
+}
+
+#email {
+  border-radius: 5px;
+  margin: auto;
+  min-width: 90%;
+  padding: 10px;
+}
+#email-label {
+  margin-left: 11px;
+}
+
+#number {
+  border-radius: 5px;
+  margin: auto;
+  min-width: 90%;
+  padding: 10px;
+}
+#number-label {
+  margin-left: 11px;
+}
+
+#dropdown {
+  border-radius: 5px;
+  margin: auto;
+  min-width: 95%;
+  padding: 10px;
+}
+#dropdown-label {
+  margin-left: 11px;
+}
+
+#rbutton-label {
+  margin-left: 11px;
+}
+#definitely {
+  margin-left: 11px;
+}
+#maybe {
+  margin-left: 11px;
+}
+#nsure {
+  margin-left: 11px;
+}
+#improved {
+  margin-left: 11px;
+}
+#Security {
+  margin-left: 11px;
+}
+#Library {
+  margin-left: 11px;
+}
+#Lab {
+  margin-left: 11px;
+}
+#submit {
+  border-radius: 5px;
+  margin: auto;
+  min-width: 100%;
+  background-color: green;
+  padding: 10px;
+  color: azure;
+}
+
+@media (max-width: 800px) {
+  #survey-form {
+    margin: auto;
+    padding: 15px 15px;
+  }
+}
